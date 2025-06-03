@@ -17,37 +17,47 @@ Aplikasi Flutter sederhana untuk mencatat dan melacak kebiasaan harian (habit) s
 ---
 
 ## 🧪 Preview Aplikasi
+### Halaman Utama
+![main](https://github.com/user-attachments/assets/61148528-1120-4923-80a1-cbdce4bf551b)
 
-| Screenshot                                                                        | Keterangan                                        |
-| --------------------------------------------------------------------------------- | ------------------------------------------------- |
-| ![main](https://github.com/user-attachments/assets/88909e6f-3fc9-4ed9-bc5a-40be894613a1)                                                | Tampilan utama aplikasi                           |
-| ![tambah habit baru](https://github.com/user-attachments/assets/b7e58533-3eba-4f76-9bb3-b1f80f7bb192)
-                     | Form tambah habit baru                            |
-| !![centang](https://github.com/user-attachments/assets/0a1e8209-775f-433d-bcd1-3de6f3a22b53)
-                                            | Menandai habit sudah dilakukan                    |
-| ![done edit](https://github.com/user-attachments/assets/eb4aa602-13b8-4453-9333-82b5f88b1f0f)
-                                       | Habit setelah diedit                              |
-| ![done hapus](https://github.com/user-attachments/assets/e6b4f165-89e0-4f85-9985-d30e18862de9)
-                                     | Habit setelah dihapus                             |
-| ![edit](https://github.com/user-attachments/assets/313aad47-c904-4ce1-9eac-a6937ab147ab)
-                                                   | Proses edit habit                                 |
-| ![edit (dengan detail sblm edit)](https://github.com/user-attachments/assets/a453d267-79a7-400d-a952-4f83ccee59ab)
- | Form edit dengan data sebelumnya                  |
-| ![verifikasi hapus](https://github.com/user-attachments/assets/f3c40a28-6000-4026-b016-a5976fa16a11)
-                         | Konfirmasi sebelum menghapus habit                |
-| ![cek progress bar](https://github.com/user-attachments/assets/5531af18-984a-438a-b95f-7a16a33d8545)
-                       | Cek progress habit (centang otomatis)             |
-| ![output print](https://github.com/user-attachments/assets/da896c17-df47-4bad-8245-a6d55316ea9f)
-                                 | Output log habit ke konsol                        |
-| ![sblm reset](https://github.com/user-attachments/assets/603d6300-6d6d-455a-88e8-54a8512235f1)
-                                     | Daftar habit sebelum direset                      |
-| ![stlh reset](https://github.com/user-attachments/assets/b463c6dc-7698-4140-848d-86db3a587fb6)
-                                     | Habit telah direset ke status awal                |
-| ![tambah (mencegah)](https://github.com/user-attachments/assets/52d7a859-71d9-43af-afe3-ec2728c32b6c)
-                       | Validasi input kosong saat tambah habit           |
-| ![ephemeral state](https://github.com/user-attachments/assets/c5ecff19-5fcf-4edf-bf3a-129f9df0a18d)
-                           | State tidak permanen (tanpa penyimpanan database) |
-| ![src code](https://github.com/user-attachments/assets/4a50f6fe-1c51-47e9-88e7-186f4a5da0f7)
-                                         | Potongan source code Flutter                      |
-| ![olahraga pagi](https://github.com/user-attachments/assets/e305a74e-1284-437c-b7bc-cfaf1e91b82a)
-                               | Contoh habit: olahraga pagi                       |
+### Uji Coba centang
+![centang](https://github.com/user-attachments/assets/8bc80a23-e59b-441e-af5a-91be5b6cf65d)
+
+### Interaksi Tambah Habit
+![tambah habit baru](https://github.com/user-attachments/assets/4a7b0dd5-f8d0-4567-b8fa-e1a0cd8d68db)
+
+### Form Isi Habit
+![olahraga pagi](https://github.com/user-attachments/assets/da3ec64d-0248-41a1-8b61-73c53098fc92)
+
+### Form Kosong
+![tambah (mencegah)](https://github.com/user-attachments/assets/9069875b-47cb-46cd-a4f5-2fdeaf3672d2)
+
+### Interaksi Edit
+![edit](https://github.com/user-attachments/assets/0951a99a-75cc-4fe2-8e1c-820f142ce1aa)
+
+### Hasil Setelah Edit
+![done edit](https://github.com/user-attachments/assets/67a0fc40-b4d0-488b-8864-e157611b0dbc)
+
+### Edit Habit Dialog
+![edit (dengan detail sblm edit)](https://github.com/user-attachments/assets/100d585a-d549-4bec-a814-52b08078d3da)
+
+### Penghapusan Habit
+![done hapus](https://github.com/user-attachments/assets/b073f822-3772-478c-8b27-fdd16acf450b)
+
+### Dialog Konfirmasi Hapus
+![verifikasi hapus](https://github.com/user-attachments/assets/c925abe5-3fd3-4744-a85a-ddac53f3f1b3)
+
+### Tampilan Setelah Habit Dihapus
+![done hapus](https://github.com/user-attachments/assets/98bcef3f-2190-4abb-8698-c1604417e64c)
+
+### Uji Progress Bar
+![Uploading cek progress bar.png…]()
+
+### Uji Reset Checkbox
+![stlh reset](https://github.com/user-attachments/assets/9238cff3-66d7-46e4-829d-d77947b24109)
+
+### Uji Ephemeral State
+![ephemeral state](https://github.com/user-attachments/assets/f6b68908-c4aa-4f50-b49e-a3920dab4811)
+
+### Debug Console
+![Uploading output print.png…]()
